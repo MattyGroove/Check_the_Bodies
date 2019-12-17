@@ -2,7 +2,7 @@ BACKUP ~CtBEE/backup~
 
 AUTHOR ~Charles Bisson, King Diamond (revision) Ikki (EE Conversion)  Weigo (all in one)~  NO_IF_EVAL_BUG
 
-VERSION ~2.3 pre 1~
+VERSION ~2.3~
 
 AUTO_TRA ~CtBEE/Language/%s~
 
