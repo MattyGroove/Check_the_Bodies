@@ -1104,19 +1104,7 @@ IF
 	Global("AnomenCor","GLOBAL",0)
 THEN
 	RESPONSE #100
-		SetGlobal("CbWeddingQuestStarts","GLOBAL",1)
-		CreateCreatureOffScreen("CBSFMESS",0)
-                ActionOverride("CBSFMESS",MoveToObject([PC]))
-                ActionOverride("CBSFMESS",StartDialogNoSet([PC]))
-END
-
-IF
-	GlobalGT("CbWeddingQuestStarts","GLOBAL",0)
-	Global("CbCanDoWedding","GLOBAL",0)
-	GlobalTimerExpired("CbFarrahdWeddingTimer","GLOBAL")
-THEN
-	RESPONSE #100
-		SetGlobal("CbCanDoWedding","GLOBAL",1)
+		SetGlobal("CbWeddingQuestStarts","GLOBAL",-1)
 END
 
 IF
