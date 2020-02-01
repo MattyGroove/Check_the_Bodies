@@ -1,5 +1,4 @@
 IF
-	OnCreation()
 	!GlobalGT("CbCloseToHome","GLOBAL",4)
 	GlobalTimerExpired("CbCloseToHomeTimer","GLOBAL")
 THEN
@@ -54,7 +53,6 @@ THEN
 END
 
 IF
-	OnCreation()
 	Global("CbCloseToHome","GLOBAL",1)
 	!GlobalTimerExpired("CbCloseToHomeTimer","GLOBAL")
 THEN
